@@ -1,7 +1,8 @@
-import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
 
 export default function Home() {
-  return <div className="text-1xl text-blue-800">hello! THIS ALL WORKS! </div>;
+  return (
+    <div className="text-1xl text-blue-800">
+      hello! THIS ALL WORKS! Testing this as well.
+    </div>
+  );
 }

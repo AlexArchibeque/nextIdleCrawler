@@ -1,0 +1,12 @@
+/* ./styles/globals.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply text-white;
+  @apply bg-gray-800;
+  background-image: var(--wiggles-bg);
+  overscroll-behavior-y: none;
+}
